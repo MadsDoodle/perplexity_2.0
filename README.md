@@ -57,19 +57,19 @@ Perplexity 2.0 follows a client-server architecture:
 ```bash
 cd ../client
 npm install
-
+```
 ### Running the Application
 
 1. **Start the server**
    ```bash
    cd server
    uvicorn app:app --reload
-
+```
 2. **Start the client**
    ```bash
    cd client
    npm run dev
-
+```
 3. **Open your browser and navigate to http://localhost:3000**   
 
 ## 🔍 How It Works
