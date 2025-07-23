@@ -2,6 +2,8 @@
 
 A modern, responsive AI chat interface with integrated web search functionality. Perplexity 2.0 provides a clean UI similar to Perplexity.ai, combining conversational AI with real-time search capabilities
 
+---
+
 ## ✨ Features
 
 - **Real-time AI Responses** - Stream AI responses as they're generated
@@ -9,6 +11,8 @@ A modern, responsive AI chat interface with integrated web search functionality.
 - **Conversation Memory** - Maintains context throughout your conversation
 - **Search Process Transparency** - Visual indicators show searching, reading, and writing stages
 - **Responsive Design** - Clean, modern UI that works across devices
+
+---
 
 ## 🏗️ Architecture
 
@@ -18,6 +22,8 @@ Perplexity 2.0 follows a client-server architecture:
 - Modern React application built with Next.js
 - Real-time streaming updates using Server-Sent Events (SSE)
 - Components for message display, search status, and input handling
+  
+---
 
 ### Server (FastAPI + LangGraph)
 - Python backend using FastAPI for API endpoints
@@ -57,19 +63,19 @@ Perplexity 2.0 follows a client-server architecture:
 ```bash
 cd ../client
 npm install
-
+```
 ### Running the Application
 
 1. **Start the server**
    ```bash
    cd server
    uvicorn app:app --reload
-
+   ```
 2. **Start the client**
    ```bash
    cd client
    npm run dev
-
+   ```
 3. **Open your browser and navigate to http://localhost:3000**   
 
 ## 🔍 How It Works
